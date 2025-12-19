@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SahayakGPT — Coming Soon</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
+    }
+
+    body {
+      min-height: 100vh;
+      background: linear-gradient(160deg, #020617, #0f172a);
+      color: #e5e7eb;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .container {
+      max-width: 760px;
+      text-align: center;
+      padding: 24px;
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 6px 16px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.08);
+      font-size: 13px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      margin-bottom: 28px;
+      color: #cbd5f5;
+    }
+
+    h1 {
+      font-size: clamp(2.6rem, 6vw, 4rem);
+      font-weight: 700;
+      margin-bottom: 20px;
+      background: linear-gradient(90deg, #e0e7ff, #93c5fd);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    p {
+      font-size: 1.1rem;
+      color: #94a3b8;
+      line-height: 1.7;
+      margin-bottom: 36px;
+    }
+
+    .status {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      margin-bottom: 44px;
+    }
+
+    .dot {
+      width: 10px;
+      height: 10px;
+      background: #22c55e;
+      border-radius: 50%;
+      animation: pulse 1.6s infinite;
+    }
+
+    @keyframes pulse {
+      0% { box-shadow: 0 0 0 0 rgba(34,197,94,0.7); }
+      70% { box-shadow: 0 0 0 14px rgba(34,197,94,0); }
+      100% { box-shadow: 0 0 0 0 rgba(34,197,94,0); }
+    }
+
+    .status span {
+      font-size: 0.95rem;
+      color: #86efac;
+    }
+
+    .footer {
+      margin-top: 60px;
+      font-size: 13px;
+      color: #64748b;
+      line-height: 1.6;
+    }
+
+    .footer strong {
+      color: #e5e7eb;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="badge">AI Startup • Built in India 🇮🇳</div>
+
+    <h1>SahayakGPT</h1>
+
+    <p>
+      We’re building an AI-powered platform focused on simplifying
+      complex digital processes for everyday India.
+      <br><br>
+      Early stage. Founder-led. Launching soon.
+    </p>
+
+    <div class="status">
+      <div class="dot"></div>
+      <span>Currently in development</span>
+    </div>
+
+    <div class="footer">
+      © 2025 <strong>SahayakGPT</strong> • All rights reserved<br />
+      Contact: sahyakgpt@gmail.com
+    </div>
+  </div>
+
+</body>
+</html>
